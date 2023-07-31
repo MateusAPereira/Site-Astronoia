@@ -1,0 +1,28 @@
+body{
+  color: aliceblue;
+}
+header{
+  color: white;
+  background-color: rgb(85, 85, 85);
+  height: 200px;
+}
+nav{
+  background-color: gray;
+  
+}
+main{
+  color: black;
+}
+
+img{
+  width: 100%;
+  
+}
+
+h2{
+  text-align: center;
+}
+footer{
+  background-color: rgb(85, 85, 85);
+  text-align: center;
+}
