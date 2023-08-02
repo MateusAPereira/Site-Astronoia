@@ -1,28 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cinzel:wght@400;500&family=DM+Sans&family=Lugrasimo&family=Lumanosimo&family=Manrope:wght@300&family=Montserrat:ital@1&family=Orbitron&family=Oswald:wght@300&display=swap');
+
 body{
-  color: aliceblue;
+font-size: 18px;
+font-family: 'Bree Serif', serif;
+font-family: 'Cinzel', serif;
+font-family: 'DM Sans', sans-serif;
 }
-header{
-  color: white;
-  background-color: rgb(85, 85, 85);
-  height: 200px;
-}
-nav{
-  background-color: gray;
-  
-}
-main{
-  color: black;
+h1{
+  color: rgb(12, 12, 92);
 }
 
-img{
-  width: 100%;
-  
-}
-
-h2{
-  text-align: center;
-}
 footer{
-  background-color: rgb(85, 85, 85);
   text-align: center;
 }
