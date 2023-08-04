@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cinzel:wght@400;500&family=DM+Sans&family=Lugrasimo&family=Lumanosimo&family=Manrope:wght@300&family=Montserrat:ital@1&family=Orbitron&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cinzel:wght@400;500&family=DM+Sans&family=Kanit&family=Lugrasimo&family=Lumanosimo&family=Manrope:wght@300&family=Montserrat:ital@1&family=Open+Sans&family=Orbitron&family=Oswald:wght@300&display=swap');
 
 body{
 font-size: 18px;
@@ -11,15 +12,32 @@ background-color: rgb(204, 200, 200);
 main{
   max-width: 800px;
   min-width: 320px;
+  
 }
 h1, h2{
   color: rgb(12, 12, 92);
 }
 
+p{
+  text-align: justify;
+  text-indent: 20px;
+  line-height: 1.5em;
+}
+
+li{
+  line-height: 1.5em ;
+}
+
 footer{
   text-align: center;
-  background-color: rgb(35, 8, 88);
+  background-color: rgba(12, 1, 34, 0.959);
   border-radius: 20px;
+  padding: 5px;
+
+}
+
+footer > a{
+  text-decoration: none;
   color: white;
 }
 div{
@@ -40,3 +58,13 @@ header > a:hover{
   color: white;
 }
 
+a.externo::after {
+  content: '\00A0\1F517';
+}
+
+.nav{
+  font-size: 25px;
+  font-family: 'Kanit', sans-serif;
+  color: rgba(12, 1, 34, 0.959);
+
+}
